@@ -1,0 +1,84 @@
+# Binaries for programs and plugins
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.cov
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+anonlink.db
+
+# Uploads directory - keep structure but ignore files
+uploads/*
+!uploads/
+!uploads/.gitkeep
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Frontend stuff
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+frontend/.env*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+tmp/
+temp/
+.cache/
